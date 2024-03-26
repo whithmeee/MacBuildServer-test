@@ -5,6 +5,8 @@ import { Link, useNavigate } from "react-router-dom";
 import Input from "../../components/UI/Input/Input";
 import { FormEvent, useState } from "react";
 import axios, { AxiosError } from "axios";
+import { useDispatch } from "react-redux";
+import { addToken } from "../../redux/user.slice";
 
 export interface LoginForm {
     email: {
@@ -18,6 +20,7 @@ export interface LoginForm {
 const Login = () => {
     const [error, setError] = useState<string | null>("");
     const navigate = useNavigate();
+    const dispatch = useDispatch();
 
     const handleSumbit = async (e: FormEvent) => {
         e.preventDefault();
@@ -36,7 +39,7 @@ const Login = () => {
                     password,
                 }
             );
-            localStorage.setItem("token", data.token);
+            dispatch(addToken(data.token));
             navigate("/");
         } catch (error) {
             if (error instanceof AxiosError) {
@@ -82,7 +85,7 @@ const Login = () => {
                                 id="password"
                             />
                         </div>
-                        <Button children={"Sign Up"} />
+                        <Button children={"Sign in"} />
                     </form>
 
                     <div className={styles["no-login"]}>

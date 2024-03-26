@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 27px;
+}
+
+.header-menu {
+    display: flex;
+}
+
+.header-menu > ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 33px;
+}
+
+.header-menu > ul > li {
+    list-style: none;
+    cursor: pointer;
+    font-family: "Heebo";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+}

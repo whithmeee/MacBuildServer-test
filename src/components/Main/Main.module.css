@@ -1,0 +1,24 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+    gap: 115px;
+}
+
+.main-text > h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243d;
+}
+
+.main-text > p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243d;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

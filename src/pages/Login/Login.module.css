@@ -1,0 +1,80 @@
+.login {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.login-content {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.login-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.login-img > img {
+    width: 600px;
+    height: 600px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.login-email {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-email > label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+}
+
+.login-email > input {
+    width: 500px;
+}
+
+.login-password {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-password > label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+}
+
+.login-password > input {
+    width: 500px;
+}
+
+.no-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.no-login > a {
+    text-decoration: none;
+    color: #ff6464;
+}
+
+.no-login > a:hover {
+    color: #f54e4e;
+}

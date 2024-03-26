@@ -1,0 +1,50 @@
+.works-items {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.work-item {
+    display: flex;
+    gap: 20px;
+}
+
+.work-content > h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243d;
+    margin-bottom: 16px;
+}
+
+.date {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 17px;
+}
+
+.date-text {
+    width: 62px;
+    height: 25px;
+    background: #142850;
+    border-radius: 16px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.date > span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695a4;
+}
+
+.work-desc {
+    font-weight: normal;
+    font-size: 16px;
+    color: #21243d;
+}

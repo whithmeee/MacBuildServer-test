@@ -1,0 +1,35 @@
+.post-item {
+    display: flex;
+    margin-top: 22px;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.post-content {
+    background-color: #ffffff;
+    padding: 23px;
+}
+
+.post-content > h6 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243d;
+    margin-bottom: 20px;
+}
+
+.post-content > div {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 11px;
+    position: relative;
+}
+
+.post-content > div > span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243d;
+}
